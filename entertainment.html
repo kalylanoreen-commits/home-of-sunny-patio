@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entertainment at Home of Sunny & Patio</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --dark:#352208;
+      --gold:#e1bb80;
+      --olive:#7b6b43;
+      --earth:#685634;
+      --bg:#f7f4ef;
+    }
+
+    *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:var(--bg);
+      color:var(--dark);
+      animation:fade 0.8s ease;
+    }
+
+    @keyframes fade{
+      from{opacity:0; transform:translateY(10px)}
+      to{opacity:1; transform:translateY(0)}
+    }
+
+    header{
+      padding:20px 8%;
+      background:var(--dark);
+      color:#fff;
+    }
+
+    header h1{
+      font-family:'Playfair Display', serif;
+      font-size:1.6rem;
+    }
+
+    .hero{
+      padding:90px 8%;
+      display:grid;
+      grid-template-columns:1.1fr 0.9fr;
+      gap:60px;
+      align-items:center;
+    }
+
+    .hero h2{
+      font-family:'Playfair Display', serif;
+      font-size:3rem;
+      margin-bottom:25px;
+    }
+
+    .hero p{
+      line-height:1.9;
+      margin-bottom:20px;
+      color:var(--earth);
+      max-width:520px;
+    }
+
+    ul{
+      margin-left:20px;
+      line-height:2;
+      color:var(--earth);
+      font-size:1.05rem;
+    }
+
+    ul li{
+      margin-bottom:8px;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:30px;
+      padding:14px 32px;
+      background:var(--olive);
+      color:#fff;
+      text-decoration:none;
+      border-radius:30px;
+      font-size:0.95rem;
+      transition:0.3s ease;
+    }
+
+    .btn:hover{
+      background:var(--gold);
+      color:var(--dark);
+    }
+
+    .hero img{
+      width:100%;
+      border-radius:26px;
+      box-shadow:0 20px 40px rgba(0,0,0,0.15);
+    }
+
+    @media(max-width:1000px){
+      .hero{grid-template-columns:1fr}
+      .hero h2{font-size:2.5rem}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Home of Sunny & Patio</h1>
+</header>
+
+<section class="hero">
+  <div>
+    <h2>Entertainment You Can Enjoy</h2>
+
+    <p>
+      Your stay isn’t just about comfort — it’s also about fun and relaxation.
+      At Home of Sunny & Patio, you’ll find plenty of entertainment options
+      perfect for families, friends, or a cozy night indoors.
+    </p>
+
+    <ul>
+      <li> Piano — enjoy music and unwind creatively</li>
+      <li> Karaoke — have fun singing with friends and family</li>
+      <li> Board Games — great for bonding and relaxed evenings</li>
+      <li> Watch TV — sit back and enjoy movies or shows together</li>
+    </ul>
+
+    <a href="index.html" class="btn">Back to Home</a>
+  </div>
+
+  <!-- UPDATED IMAGE -->
+  <img src="https://integral-cyan-uyijitwvwc.edgeone.app/PIANO.jpg" alt="Piano Entertainment Area">
+</section>
+
+</body>
+</html>
