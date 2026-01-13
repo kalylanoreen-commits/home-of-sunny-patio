@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shooting Location — Home of Sunny & Patio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --dark:#352208;
+  --olive:#7b6b43;
+  --earth:#685634;
+  --bg:#f7f4ef;
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{background:var(--bg);color:var(--dark);animation:fade .8s ease}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+header{background:var(--dark);color:#fff;padding:20px 8%}
+header h1{font-family:'Playfair Display',serif}
+section{padding:90px 8%;display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+h2{font-family:'Playfair Display',serif;font-size:3rem;margin-bottom:25px}
+p{line-height:1.9;color:var(--earth);margin-bottom:35px}
+.btn{padding:14px 32px;background:var(--olive);color:#fff;text-decoration:none;border-radius:30px}
+img{width:100%;border-radius:26px;box-shadow:0 20px 40px rgba(0,0,0,.15)}
+@media(max-width:900px){section{grid-template-columns:1fr}}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Home of Sunny & Patio</h1>
+</header>
+
+<section>
+  <div>
+    <h2>Perfect for Shoots & Productions</h2>
+    <p>
+      Home of Sunny & Patio is also well-suited for film shoots, commercials,
+      and creative productions. With flexible spaces, natural lighting, and
+      a warm residential atmosphere, it provides a versatile backdrop for
+      visual storytelling and professional projects.
+    </p>
+
+    <a class="btn" href="livingroom.html">← Back</a>
+  </div>
+
+  <img src="https://res.cloudinary.com/dtj7ghsyt/image/upload/v1768314724/yrbu0rsd5mxu2xcfpd5i.jpg" alt="Shooting location">
+</section>
+</body>
+</html>
