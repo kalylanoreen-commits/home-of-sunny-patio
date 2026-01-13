@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home of Sunny & Patio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --dark:#352208;
+  --olive:#7b6b43;
+  --earth:#685634;
+  --bg:#f7f4ef;
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{background:var(--bg);color:var(--dark)}
+header{background:var(--dark);color:#fff;padding:20px 8%}
+header h1{font-family:'Playfair Display',serif}
+.hero{padding:90px 8%;display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+.hero h2{font-family:'Playfair Display',serif;font-size:3rem;margin-bottom:25px}
+.hero p{line-height:1.9;color:var(--earth);margin-bottom:30px}
+.btn{padding:14px 32px;background:var(--olive);color:#fff;text-decoration:none;border-radius:30px}
+.hero img{width:100%;border-radius:26px}
+@media(max-width:900px){.hero{grid-template-columns:1fr}}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Home of Sunny & Patio</h1>
+</header>
+
+<section class="hero">
+  <div>
+    <h2>A Warm & Inviting Getaway</h2>
+    <p>
+      Welcome to Home of Sunny & Patio, a thoughtfully designed retreat that blends
+      comfort, warmth, and simplicity. From the moment you arrive, the space invites
+      you to slow down and enjoy a peaceful atmosphere.
+    </p>
+    <p>
+      Whether you’re here for rest, connection, or creativity, this home offers a calm
+      and welcoming environment that feels both personal and inspiring.
+    </p>
+    <a class="btn" href="stay.html">Explore The Stay</a>
+  </div>
+
+  <img src="https://square-cyan-2ufnx7ngzu.edgeone.app/WhatsApp%20Image%202025-12-17%20at%2012.40.11_0066e235.jpg" alt="Home exterior">
+</section>
+</body>
+</html>
